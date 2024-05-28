@@ -8,7 +8,7 @@
 
 ---
 
-Вы можете скачать бинарную версию приложения из репозитория релизов по этой [ссылке](https://github.com/yourusername/Calculator/releases) или скомпилировать самому из исходных кодов.
+Вы можете скачать бинарную версию приложения из репозитория релизов по этой [ссылке](https://github.com/tailogs/Calculator/releases) или скомпилировать самому из исходных кодов.
 
 ## Возможности
 
@@ -30,20 +30,26 @@
 1. Склонируйте проект:
 
     ```sh
-    git clone https://github.com/yourusername/calculator.git
-    cd calculator
+    git clone https://github.com/tailogs/Calculator.git
+    ```
+    
+    ```sh
+    cd Calculator
     ```
 
 2. Инициализируйте модуль Go:
 
     ```sh
-    go mod init calculator
+    go mod init Calculator
     ```
 
 3. Установите библиотеки для создания графического интерфейса и другие зависимости:
 
     ```sh
     go get fyne.io/fyne/v2
+    ```
+    
+    ```sh
     go get github.com/Knetic/govaluate
     ```
 
@@ -80,7 +86,7 @@
 9. Запустите проект:
 
     ```sh
-    calculator.exe
+    Calculator.exe
     ```
 
 ### Использование
