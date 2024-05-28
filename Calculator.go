@@ -8,6 +8,7 @@ import (
 	"fyne.io/fyne/v2/app"
 	"fyne.io/fyne/v2/container"
 	"fyne.io/fyne/v2/widget"
+	"fyne.io/fyne/v2/theme"
 	"fyne.io/fyne/v2"
 	"github.com/Knetic/govaluate"
 )
@@ -19,7 +20,7 @@ func main() {
 	// Установить иконку для окна
 	resource, err := fyne.LoadResourceFromPath("Calculator.ico")
 	if err != nil {
-		panic(err)
+		myApp.SetIcon(theme.FyneLogo())
 	}
 	myWindow.SetIcon(resource)
 
